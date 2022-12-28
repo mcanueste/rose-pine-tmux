@@ -16,10 +16,10 @@ Time format can be changed by setting `@rosepine_time_format`:
 set -g @rosepine_time_format "%I:%M %p"
 ```
 
-`%I` - Hour as decimal number (12-hour clock)
-`%M` - Minute as decimal number
-`%p` - "AM" or "PM"
-`%R` - **[Default]** Hour and minute in 24-hour notation (%H:%M).
+- `%I`: Hour as decimal number (12-hour clock)
+- `%M`: Minute as decimal number
+- `%p`: "AM" or "PM"
+- `%R`: **[Default]** Hour and minute in 24-hour notation (%H:%M).
 
 See [strftime manpage](http://man7.org/linux/man-pages/man3/strftime.3.html) for more details.
 
@@ -31,13 +31,13 @@ Date format can be changed by setting `@rosepine_date_format`:
 set -g @onedark_date_format "%D"
 ```
 
-`%m`       - Month as a decimal number.  
-`%d`       - Day of the month as a decimal number  
-`%y`       - Year as a decimal number without the century.  
-`%Y`       - Year as a decimal number including the century.  
-`%D`       - Equivalent to %m/%d/%y (American format).   
-`%F`       - Equivalent to %Y/%m/%d (ISO 8601 format).   
-`%d/%m/%Y` - **[Default]** Date in non-American format.
+- `%m`: Month as a decimal number
+- `%d`: Day of the month as a decimal number
+- `%y`: Year as a decimal number without the century
+- `%Y`: Year as a decimal number including the century
+- `%D`: Equivalent to %m/%d/%y (American format)
+- `%F`: Equivalent to %Y/%m/%d (ISO 8601 format)
+- `%d/%m/%Y`: **[Default]** Date in non-American format
 
 See [strftime manpage](http://man7.org/linux/man-pages/man3/strftime.3.html) for more details.
 
