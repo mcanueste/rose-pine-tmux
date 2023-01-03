@@ -51,7 +51,7 @@ set "status-style" "fg=$iris,bg=$base,bold"
 rosepine_time_format=$(get "@time_format" "%R")
 rosepine_date_format=$(get "@date_format" "%d/%m/%Y")
 
-datetime_block="#[fg=$gold,bg=$base] ${time_format} ${date_format}"
+datetime_block="#[fg=$gold,bg=$base] ${rosepine_time_format} ${rosepine_date_format}"
 host_block="#[fg=$iris,bg=$base] #h "
 set "status-right" "${datetime_block} ${host_block}"
 set "status-left" "#[fg=$iris,bg=$base] #S "
