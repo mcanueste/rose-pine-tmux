@@ -28,7 +28,7 @@ See [strftime manpage](http://man7.org/linux/man-pages/man3/strftime.3.html) for
 Date format can be changed by setting `@rosepine_date_format`:
 
 ```
-set -g @onedark_date_format "%D"
+set -g @rosepine_date_format "%D"
 ```
 
 - `%m`: Month as a decimal number
